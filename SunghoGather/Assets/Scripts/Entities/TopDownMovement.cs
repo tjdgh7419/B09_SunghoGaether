@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    private TopDownCharacterController _controller;
-    private Vector2 _movementDirection = Vector2.zero;
-    private Rigidbody2D _rigidbody;
+	private TopDownCharacterController _controller;
+	private Vector2 _movementDirection = Vector2.zero;
+	private Rigidbody2D _rigidbody;
 
 	private void Awake()
 	{
@@ -25,6 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
 		ApplyMovement(_movementDirection);
 	}
 
+
 	private void Move(Vector2 direction)
 	{
 		_movementDirection = direction;
@@ -36,4 +37,5 @@ public class NewBehaviourScript : MonoBehaviour
 
 		_rigidbody.velocity = direction;
 	}
+
 }
