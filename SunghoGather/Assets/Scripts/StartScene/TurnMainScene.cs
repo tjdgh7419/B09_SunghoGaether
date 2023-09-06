@@ -8,6 +8,9 @@ public class TurnMainScene : MonoBehaviour
 {
 	public void MainStart()
     {
-        SceneManager.LoadScene("MainScene");
+        if (PlayerPrefs.GetString("CurrentName") != "")
+        {
+            SceneManager.LoadScene("MainScene");
+        }     
     }
 }
