@@ -2,13 +2,12 @@
 # B09-SunghoGather
 게더를 모방해서 만든 성호 게더입니다.
 
-<p>
-</p>
-
 ## 🦆 구구덕 조 Team Notion
 URL : [09 - 구구덕 (notion.site)](https://teamsparta.notion.site/09-6e10d82f2c4c43f5a5f23a398eb48b20)
+
  ## :one: 프로젝트 소개
 원하는 캐릭터로 다양한 NPC를 만나볼 수 있는 모방형 게더 입니다.
+
 ## :two: 개발기간
 - 23.09.04(월) ~ 23.09.07(목)
 
